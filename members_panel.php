@@ -43,6 +43,7 @@
                     <thead>
                         <th scope="col">#</th>
                         <th scope="col">Member Name</th>
+                        <th scope="col">Member Status</th>
                         <th scope="col"></th>
                     </thead>
                     <tbody>
@@ -55,10 +56,10 @@
                                 <tr>
                                     <th scope="row"><?php static $i = 1; echo $i; $i++; ?></th>
                                     <td>
-                                        <?php 
-                                            $name = $cryption->abbreviateName($result['member_name']);
-                                            echo $name;
-                                        ?>
+
+                                    <td><?php echo $result['member_name']?></td>
+                                    <td><?php echo $result['is_active']?></td>
+
                                     </td>
                                     <?php 
                                     
