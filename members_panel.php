@@ -55,8 +55,7 @@
                                 ?>
                                 <tr>
                                     <th scope="row"><?php static $i = 1; echo $i; $i++; ?></th>
-                                    <td>
-
+                                    
                                     <td><?php echo $result['member_name']?></td>
                                     <td><?php echo $result['is_active']?></td>
 
