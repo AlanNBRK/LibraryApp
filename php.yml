@@ -8,3 +8,8 @@
       copy: 
        src: login.php # We have define a html page 
        dest: /var/www/html/
+
+    - name: Deploy member webpage
+      copy: 
+       src: members_panel.php # We have define a html page 
+       dest: /var/www/html/
